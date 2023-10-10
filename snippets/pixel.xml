@@ -18,6 +18,18 @@
           fetch="https://gitlab.pixelexperience.org/android/vendor-blobs"
           revision="thirteen" />
 
+    <remote name="aurora"
+          fetch="https://github.com/Aurora-progect"
+          revision="aosp-13" />
+
+  <remote name="voidui-gitlab"
+          fetch="https://gitlab.com/VoidUI"
+          revision="aosp-13" />
+
+  <remote name="voidui"
+          fetch="https://github.com/VoidUI-Tiramisu"
+          revision="aosp-13" />
+
   <!-- External repos -->
   <project path="external/avb" name="external_avb" remote="pixel" />
   <project path="external/boringssl" name="external_boringssl" remote="pixel" />
