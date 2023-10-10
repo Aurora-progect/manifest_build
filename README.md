@@ -1,11 +1,11 @@
-# Pixel Experience #
+# Aurora #
 
 ### Sync ###
 
 ```bash
 
 # Initialize local repository
-repo init -u https://github.com/PixelExperience/manifest -b thirteen
+repo init -u https://github.com/Aurora-progect/manifest -b thirteen
 
 # Sync
 repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags
